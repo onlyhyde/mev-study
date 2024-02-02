@@ -7,33 +7,35 @@ backgroundColor: black
 color: white
 marp: true
 style: |
-    header {
-        text-align: right;
-        line-height: 1.0;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        color: white
-    }
-    section h1 {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        text-align: center;
-        position: relative;
-        font-szie: 40px;
-        height: 500px;
-    }
-    section.h2center h2 {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        test-align: center;
-        height: 500px;
-    }
+  header {
+      text-align: right;
+      line-height: 1.0;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: white
+  }
+  section h1 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      font-szie: 40px;
+      height: 500px;
+  }
+  section.h2center h2 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      test-align: center;
+      height: 500px;
+  }
 ---
+
 <!-- _paginate: skip -->
+
 # **MEV DeepDive**
 
 ---
@@ -106,7 +108,7 @@ for submitting bundles to the relay
 
 - in : bundle
 - out : bundle hash
-[detailed structure of bundles](https://docs.flashbots.net/flashbots-mev-share/searchers/understanding-bundles)
+  [detailed structure of bundles](https://docs.flashbots.net/flashbots-mev-share/searchers/understanding-bundles)
 
 ---
 
@@ -170,6 +172,4 @@ to :
 
 ---
 
-감사합니다.
-
----
+# 감사합니다.
